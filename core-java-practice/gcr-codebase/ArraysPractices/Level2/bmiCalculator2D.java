@@ -6,7 +6,7 @@ public class bmiCalculator2D {
         System.out.print("Enter the number of persons: ");
         int number = input.nextInt();
         
-        double[][] personData = new double[number][3]; // weight, height, BMI
+        double[][] personData = new double[number][3];
         String[] weightStatus = new String[number];
         
         for (int i = 0; i < number; i++) {

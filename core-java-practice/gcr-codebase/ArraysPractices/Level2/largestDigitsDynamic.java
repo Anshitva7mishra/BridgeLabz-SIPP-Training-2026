@@ -4,7 +4,7 @@ public class largestDigitsDynamic {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        long number = input.nextLong(); // using long just in case
+        long number = input.nextLong();
         
         int maxDigit = 10;
         int[] digits = new int[maxDigit];

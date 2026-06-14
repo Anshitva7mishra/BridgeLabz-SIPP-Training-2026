@@ -6,7 +6,7 @@ public class studentGrades2D {
         System.out.print("Enter number of students: ");
         int number = input.nextInt();
         
-        double[][] marks = new double[number][3]; // physics, chemistry, maths
+        double[][] marks = new double[number][3];
         double[] percentages = new double[number];
         String[] grades = new String[number];
         

@@ -19,7 +19,7 @@ public class youngestAndTallest {
         System.out.print("Enter height of Anthony: ");
         double heightAnthony = input.nextDouble();
         
-        // Find youngest
+
         int minAge = Math.min(ageAmar, Math.min(ageAkbar, ageAnthony));
         System.out.print("The youngest friend is: ");
         if (minAge == ageAmar) System.out.print("Amar ");
@@ -27,7 +27,7 @@ public class youngestAndTallest {
         if (minAge == ageAnthony) System.out.print("Anthony");
         System.out.println(" with age " + minAge);
         
-        // Find tallest
+
         double maxHeight = Math.max(heightAmar, Math.max(heightAkbar, heightAnthony));
         System.out.print("The tallest friend is: ");
         if (maxHeight == heightAmar) System.out.print("Amar ");

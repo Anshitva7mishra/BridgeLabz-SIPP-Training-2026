@@ -20,7 +20,7 @@ public class studentGrade {
         if (percentage >= 80) {
             grade = "A";
             remarks = "Level 4, above agency-normalized standards";
-        } else if (percentage >= 70 && percentage <= 79.99) { // Using 70-79
+        } else if (percentage >= 70 && percentage <= 79.99) {
             grade = "B";
             remarks = "Level 3, at agency-normalized standards";
         } else if (percentage >= 60 && percentage <= 69.99) {

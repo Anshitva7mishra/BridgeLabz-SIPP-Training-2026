@@ -7,10 +7,10 @@ public class heightConverter {
         System.out.print("Enter your height in centimeters: ");
         double heightCm = input.nextDouble();
         
-        // Convert cm to total inches
+
         double totalInches = heightCm / 2.54;
         
-        // 1 foot = 12 inches
+
         int feet = (int) (totalInches / 12);
         double inches = totalInches % 12;
         
