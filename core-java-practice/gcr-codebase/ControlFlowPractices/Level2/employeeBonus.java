@@ -5,6 +5,9 @@ public class employeeBonus {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter salary: ");
         double salary = input.nextDouble();
+
+        
+
         
         System.out.print("Enter years of service: ");
         int years = input.nextInt();
